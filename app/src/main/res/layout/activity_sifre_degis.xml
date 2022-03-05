@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#C9DFEC"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="190dp"
+    android:paddingRight="50dp"
+    android:paddingLeft="70dp"
+    tools:context=".SifreDegisActivity">
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/yeniSifre"
+        android:layout_marginBottom="10dp"
+        android:hint="Yeni Sifre: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/yeniSifreTekrar"
+        android:hint="Yeni Sifre Tekrar:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:background="@drawable/buton_back"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Degistir"
+        android:id="@+id/degistir"/>
+
+</LinearLayout>

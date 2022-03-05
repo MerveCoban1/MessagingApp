@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_three"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".GirisYapActivity">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:hint="email: "
+        android:textColor="#7E3661" />
+
+    <EditText
+        android:id="@+id/sifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sifre: "
+        android:inputType="textPassword"
+        android:textColor="#7E3661" />
+
+    <Button
+        android:id="@+id/girisYap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buton_back_three"
+        android:text="Giriş Yap" />
+
+    <TextView
+        android:id="@+id/sifremiUnuttum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:text="Sifremi Unuttum?"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/hesapYok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buton_back_two"
+        android:text="Kayıt" />
+
+</LinearLayout>
